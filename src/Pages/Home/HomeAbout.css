@@ -1,0 +1,52 @@
+.headlines{
+    font-family: poppins;
+    text-align: center;
+    font-weight: 500;
+    margin: 30px;
+}
+
+.headlines1{
+    font-family: poppins;
+    text-align: center;
+    font-weight: 500;
+    /* margin: 30px; */
+}
+.about-section{
+    text-align: center;
+}
+.about-section>div>.about-btn{
+    background-color: #4d56ff;
+    margin-bottom: 15px;
+    width: 100%;
+    color: white;
+    height: 50px;
+    padding: 10px;
+    transition: 1s;
+}
+.about-section>div>.about-btn:hover{
+    background-color: #f645d0;
+}
+
+.about-us{
+    background: rgb(2,0,36);
+background: linear-gradient(315deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 0%, rgba(6,70,170,1) 35%, rgb(0, 149, 255) 100%);
+
+}
+/* .abt-section{
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 0%, rgba(6,70,170,1) 35%, rgba(0,212,255,1) 100%);
+} */
+.about-img img{
+    width:100%;
+    padding: 10px;
+    border-radius: 20px;
+}
+.footer-sections{
+    border: 2px #4d56ff;
+}
+.abt-text{
+    color: white;
+    font-family: poppins;
+   
+    padding: 5%;
+}

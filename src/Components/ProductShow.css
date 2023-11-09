@@ -1,0 +1,37 @@
+.card {
+    width: 100%;
+    margin: 5px;
+    /* color: white;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(315deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 0%, rgba(6, 70, 170, 1) 35%, rgb(0, 149, 255) 100%); */
+}
+
+.card-body>.card-button {
+    background-color: #8c52ff;
+    color: white;
+}
+.card-body>.card-button:hover{
+    background-color: #b152ff;
+    color: white;
+}
+.card-body>.card-title {
+    font-family: poppins;
+    font-weight: 600;
+    /* color: white; */
+}
+
+.card-text {
+    font-family: poppins;
+
+}
+
+@media screen and (max-width: 680px) {
+    .card {
+        width: 100%;
+    }
+
+    .card-title {
+
+        font-size: 14px;
+    }
+}

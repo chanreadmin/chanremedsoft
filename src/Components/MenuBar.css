@@ -1,0 +1,35 @@
+nav{
+    background: #ffffff;
+    border-bottom: 2px solid #9095f0;
+   
+}
+.navbar-brand{
+    
+}
+.nav-item .nav-link{
+padding: 20px;
+    color:#000000;
+    font-weight: 600;
+    font-size: 18px;
+    /* transition: 1s; */
+    margin-left: 10px;
+}
+.nav-item .nav-link:active{
+    color:rgb(255, 17, 17);
+ 
+    font-weight: 500;
+    font-size: 18px;
+}
+.nav-item .nav-link:hover{
+   padding: 20px;
+    display: block;
+    background-color: #343df3;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    border-radius: 10px;
+  
+   /*  font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    transition: 1s; */
+}
+.navbar-brand .logo{width: 10%;}
