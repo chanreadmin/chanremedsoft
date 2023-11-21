@@ -20,7 +20,7 @@ function SingleService() {
 
   useEffect(() => {
     fetchDataById(id);
-  },[]);
+  });
 
   return (
     <div className="container-fluid">

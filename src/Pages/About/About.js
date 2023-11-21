@@ -1,20 +1,12 @@
-import axios from 'axios';
-import React, { useEffect, useState } from 'react'
-// import axios from 'axios';
-import productdata from '../../productlist.json'
+
+import React from 'react'
+
 import FooterSection from '../Home/FooterSection';
 function About() {
 
- console.log(productdata)
-  // const [data, setData] = useState([]);
-  fetch(productdata)
-  .then(response => response.json())
-  .then(response => console.log(response)).catch(error => console.log(error))
+ 
 
-
-  useEffect(()=>{
-   
-  },[])
+ 
   return (
     <div className='container-fluid'>
       <div className="headlines mt-5" data-aos="fade-right">

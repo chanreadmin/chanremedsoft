@@ -1,5 +1,5 @@
 import MenuBar from "./Components/MenuBar";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import {HashRouter, Routes, Route } from "react-router-dom";
 import Home from './Pages/Home/Home'
 import About from './Pages/About/About'
 import Product from './Pages/Product/Product'
@@ -12,7 +12,7 @@ import Quotation from "./Pages/Quote/Quotation";
 function App() {
   return (
     <div className="App">
-      <BrowserRouter>
+      <HashRouter>
       <MenuBar/>
       <Routes>
         <Route path="/" element={<Home/>}/>
@@ -25,7 +25,7 @@ function App() {
         <Route path="/quote" element={<Quotation/>}/>
         <Route path="/*" element={<PageNotFound/>}/>
       </Routes>
-      </BrowserRouter>
+      </HashRouter>
     
     </div>
   );
