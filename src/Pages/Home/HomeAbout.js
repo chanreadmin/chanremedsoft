@@ -7,47 +7,6 @@ import { Link } from "react-router-dom";
 function HomeAbout() {
 
   const [service, setService] = useState([])
-
-
-  // const service = [
-  //   {
-  //     title: "Website Development",
-  //   },
-  //   {
-  //     title: "Android App Development",
-  //   },
-  //   {
-  //     title: "IOS App Development",
-  //   },
-  //   {
-  //     title: "eCommerce website",
-  //   },
-  //   {
-  //     title: "Hospital Software",
-  //   },
-  //   {
-  //     title: "Chatbot",
-  //   },
-  //   {
-  //     title: "AI Based Software",
-  //   },
-  //   {
-  //     title: "SEO",
-  //   },
-  //   {
-  //     title: "SEM",
-  //   },
-  //   {
-  //     title: "Google Ads",
-  //   },
-  //   {
-  //     title: "Facebook Ads",
-  //   },
-  //   {
-  //     title: "Facebook Ads",
-  //   },
-    
-  // ];
   useEffect(() => {
     setService(servicelist)
     AOS.init();
@@ -69,8 +28,8 @@ function HomeAbout() {
               <div key={index}
                 className="col-md-4 col-sm-6 col-xs-12"
                 data-aos="zoom-in-up"
-                  data-aos-easing="ease-out-cubic"
-                  data-aos-duration="2000"
+                data-aos-easing="ease-out-cubic"
+                data-aos-duration="2000"
               >
                 <Link to={`/service/${item.id}`} className="btn about-btn">{item.title}</Link>
               </div>
@@ -78,9 +37,6 @@ function HomeAbout() {
           })}
         </div>
       </div>
-
-     
-     
     </div>
   );
 }

@@ -18,7 +18,7 @@ function ProductShow() {
           Our <span className="text-primary">Products</span>
         </h2>
         <p>
-        Unleash the Digital Possibilities
+          Unleash the Digital Possibilities
         </p>
       </div>
       <div className="container mt-2">
@@ -33,7 +33,6 @@ function ProductShow() {
                   data-aos-duration="1000"
                 >
                   <div></div>
-                  {/* <img className="card-img-top" src="..." alt="Card image cap" /> */}
                   <div className="card-body">
                     <h6 className="card-title">{item.title}</h6>
                     <p className="card-text">{item.overview}</p>
