@@ -5,7 +5,10 @@ import FooterSection from '../Home/FooterSection'
 function Services() {
   return (
     <div>
-      <HomeAbout className="service-sec" />
+      <div className="service">
+        <HomeAbout />
+      </div>
+
       <FooterSection />
     </div>
   )

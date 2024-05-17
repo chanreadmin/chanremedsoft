@@ -36,7 +36,6 @@ function App() {
           <Route path="/partnership" element={<Partnership />} />
           <Route path="/*" element={<PageNotFound />} />
         </Routes>
-
       </HashRouter>
 
     </div>

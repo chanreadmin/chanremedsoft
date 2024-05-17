@@ -35,24 +35,27 @@ function SingleService() {
                 </h2>
                 <p><b>{selectedItem.tagline}</b></p>
               </div>
-              <div className="d-flex justify-content-center thumbnail mt-4 mb-4"><img src={selectedItem.picture} alt={selectedItem.title}/></div>
-              <div className="text-dark font-weight-bold">
-                <div dangerouslySetInnerHTML={{ __html: selectedItem.desc }}/>
+              <div className="d-flex justify-content-center thumbnail mt-4 mb-4" data-aos="zoom-in"
+                data-aos-duration="3000"><img src={selectedItem.picture} alt={selectedItem.title} /></div>
+              <div className="text-dark font-weight-bold" data-aos="fade-up"
+                data-aos-duration="3000">
+                <div dangerouslySetInnerHTML={{ __html: selectedItem.desc }} />
               </div>
-              
+
             </div>
           ) : (
             <p>No item selected</p>
           )}
-            <div className="d-flex justify-content-center">
-                <Link to={`/contact`} className="btn btn-primary text-white font-weight-bold">Contact Us</Link>
-            </div>
-          
+          <div className="d-flex justify-content-center" data-aos="fade-up"
+            data-aos-duration="3000">
+            <Link to={`/contact`} className="btn btn-primary text-white font-weight-bold">Contact Us</Link>
+          </div>
+
         </div>
         <div className="col-md-2"></div>
       </div>
       {/* <h1>Single Product</h1> */}
-      <FooterSection/>
+      <FooterSection />
     </div>
   );
 }
