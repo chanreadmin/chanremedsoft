@@ -1,9 +1,17 @@
 .logoImage {
     width: 100%;
+    height: 100px;
 }
 
 .logorow {
     /* margin-top: 350px; */
     padding-top: 80px;
     /* background-color: blueviolet; */
+}
+
+.mylogo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
 }
