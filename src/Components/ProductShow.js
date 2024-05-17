@@ -13,7 +13,7 @@ function ProductShow() {
   }, []);
   return (
     <div className="aboutus-section">
-      <div className="headlines mt-5" data-aos="fade-right">
+      <div className="headlines mt-5" >
         <h2>
           Our <span className="text-primary">Products</span>
         </h2>
@@ -25,7 +25,9 @@ function ProductShow() {
         <div className="row about-section">
           {data.map((item, index) => {
             return (
-              <div className="col-md-3" key={index}>
+              <div className="col-md-3" key={index} data-aos="zoom-in"
+                data-aos-easing="linear"
+                data-aos-duration="1500">
                 <div
                   className="card"
                   data-aos="zoom-in-up"

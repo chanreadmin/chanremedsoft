@@ -44,16 +44,16 @@ function Quotation() {
     return (
         <div className="container contact">
             <div className="row">
-                
+
                 <div className="col-md-12">
-                <div className="headlines mt-1" data-aos="fade-right">
-                    <h2>
-                        Quotation <span className="text-primary">Form</span>
-                    </h2>
-                    <p>
-                        Unleash the Digital Possibilities
-                    </p>
-                </div>
+                    <div className="headlines mt-1" data-aos="fade-right">
+                        <h2>
+                            Quotation <span className="text-primary">Form</span>
+                        </h2>
+                        <p>
+                            Unleash the Digital Possibilities
+                        </p>
+                    </div>
                 </div>
             </div>
             <div className="row">

@@ -10,8 +10,16 @@ import SingleService from "./Pages/SingleService/SingleService";
 import PageNotFound from "./Pages/Pnf/PageNotFound";
 import Quotation from "./Pages/Quote/Quotation";
 import Partnership from "./Pages/Partnership/Partnership";
-import FooterSection from "./Pages/Home/FooterSection";
+
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from "react";
+
 function App() {
+
+  useEffect(() => {
+    AOS.init()
+  }, [])
   return (
     <div className="App">
       <HashRouter>
@@ -28,7 +36,7 @@ function App() {
           <Route path="/partnership" element={<Partnership />} />
           <Route path="/*" element={<PageNotFound />} />
         </Routes>
-        {/* <FooterSection /> */}
+
       </HashRouter>
 
     </div>

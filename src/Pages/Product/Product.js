@@ -5,8 +5,8 @@ import FooterSection from '../Home/FooterSection'
 function Product() {
   return (
     <div>
-      <ProductShow/>
-      <FooterSection/>
+      <ProductShow />
+      <FooterSection />
     </div>
   )
 }

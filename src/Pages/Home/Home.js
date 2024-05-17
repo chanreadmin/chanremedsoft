@@ -7,11 +7,11 @@ import Aboutus from '../../Components/Aboutus'
 function Home() {
   return (
     <div>
-      <CarouselHero/>
-      <HomeAbout/>
-      <Aboutus/>
-      <ProductShow/>
-      <Footer/>
+      <CarouselHero />
+      <HomeAbout />
+      <Aboutus />
+      <ProductShow />
+      <Footer />
     </div>
   )
 }
